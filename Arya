@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Arya Kitchen | Premium Veg Catering</title>
+    <style>
+        :root { --primary: #2d5a27; --gold: #c5a059; --light: #f9f9f9; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; line-height: 1.6; color: #333; }
+        header { background: var(--primary); color: white; padding: 40px 20px; text-align: center; border-bottom: 5px solid var(--gold); }
+        nav { background: white; padding: 15px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; }
+        nav a { margin: 0 15px; text-decoration: none; color: var(--primary); font-weight: bold; text-transform: uppercase; }
+        .hero { background: var(--light); padding: 80px 20px; text-align: center; }
+        .btn { background: var(--gold); color: white; padding: 12px 25px; text-decoration: none; border-radius: 30px; font-weight: bold; display: inline-block; margin-top: 20px; }
+        .section { padding: 50px 20px; max-width: 800px; margin: auto; text-align: center; }
+        input, textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; }
+        footer { background: #222; color: #888; text-align: center; padding: 30px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>THE ARYA KITCHEN</h1>
+        <p>Pure Vegetarian Excellence & Event Catering</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Get a Quote</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Taste the Tradition</h2>
+        <p>Serving authentic South Indian and North Indian delicacies in Doddaballapur & Bangalore.</p>
+        <a href="https://wa.me/YOUR_PHONE_NUMBER" class="btn">Chat on WhatsApp</a>
+    </section>
+
+    <section class="section" id="menu">
+        <h2 style="color: var(--primary);">Our Specialties</h2>
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+            <p>🍲 Traditional Weddings</p>
+            <p>🍛 Corporate Lunches</p>
+            <p>☕ High-Tea Events</p>
+            <p>🎂 Birthday Parties</p>
+        </div>
+    </section>
+
+    <section class="section" id="contact" style="background: #fff;">
+        <h2 style="color: var(--primary);">Inquire About Your Event</h2>
+        <form action="https://formspree.io/f/YOUR_UNIQUE_ID" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <input type="number" name="guests" placeholder="Approximate Guest Count" required>
+            <textarea name="message" rows="4" placeholder="Tell us about your event (Date, Menu preferences, etc.)"></textarea>
+            <button type="submit" class="btn" style="border: none; cursor: pointer; width: 100%;">Send Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 The Arya Kitchen | Doddaballapur, Bangalore</p>
+        <p>Designed for excellence.</p>
+    </footer>
+
+</body>
+</html>
